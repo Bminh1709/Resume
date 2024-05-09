@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+     <link href="/images/system/logo_transparent2.png" rel="icon">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="border-bottom navbar fixed w-full overflow-hidden top-0 z-10 bg-MyBlack">
+        <div class="flex items-center justify-between py-5 w-5/6 mx-auto">
+            <div><a href="/" class="font-semibold text-MyYellow text-xl">Bui Minh</a></div>
+            <div class="hidden md:flex gap-4 items-center">
+                <div class="flex gap-4 font-light text-sm">
+                    <a href="/" class="hover:text-MyYellow">Home</a>
+                    <a href="/skill.html" class="hover:text-MyYellow">Skill</a>
+                    <a href="/project.html" class="hover:text-MyYellow">Project</a>
+                </div>
+                <div class="font-thin">|</div>
+                <div class="flex gap-4 text-sm">
+                    <a href="/user.html" class="hover:text-MyYellow">Sign In</a>
+                </div>
+            </div>
+            <!-- Responsive navbar -->
+            <input hidden type="checkbox" id="mobile-navbar" class="checkbox-navbar">
+            <label class="block md:hidden" for="mobile-navbar"><i class="fa-solid fa-bars text-2xl"></i></label>
+            <label for="mobile-navbar" class="nav__overlay"></label>
+
+            <div class="responsive-navbar fixed top-0 flex flex-col gap-8 px-10 py-14 bg-MyBlack w-3/4 h-full left-0 text-xl text-center">
+                <p class="font-semibold text-MyYellow text-xl">Bui Minh</p>
+                <div class="bg-MyPaleGray opacity-50 w-full h-0.5"></div>
+                <a href="/" class="hover:text-MyYellow">Home</a>
+                <a href="/skill.html" class="hover:text-MyYellow">Skill</a>
+                <a href="/project.html" class="hover:text-MyYellow">Project</a>
+                <a href="/user.html" class="hover:text-MyYellow">Sign In</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center py-14 border-bottom mt-[68px] bg-MyGray">
+        <div class="w-11/12 mx-auto">
+            <p class="text-MyYellow text-3xl font-bold mb-2">PERSONAL PROJECTS</p>
+             <P class="">During my study process, I completed several small projects
+                <br>I would appreciate it if you could take a look and provide further comments
+                <br>Thank you very much!</P>
+             <a href="#project" class="px-3 py-2 rounded-full mt-4 btn-hover">See more</a>
+        </div>
+    </div>
+
+    <div class="border-bottom py-24 " id="project">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">FPTJobMatch</p>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="hidden lg:block text-left w-1/4 leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                    <p class="text-sm">FPTJobMatch was created with the main purpose of helping employers and jobseekers connect. With the main colors being orange and blue, it represents more about the FPT brand.</p>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=R1_E3DhhaIU" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</a>
+                </div>
+                <div class="w-full lg:w-2/4 my-5">
+                    <img src="/images/system/fptjobmatch.png" alt="moho Shop" class="rounded-md opacity-80 h-[350px] object-cover mx-auto">
+                </div>
+                <div class="hidden lg:block text-left w-1/4 text-sm leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                    <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">100%</span></p>
+                    <p>Technology used:</p>
+                    <ul class="list-disc ml-7">
+                        <li>Tailwind CSS</li>
+                        <li>.NET Core</li>
+                        <li>PostgreSql</li>
+                        <li>SignalR</li>
+                    </ul>
+                    <p>End date: <span class="text-MyYellow font-semibold ml-2">1 month ago</span></p>
+                </div>
+                <div class="flex lg:hidden gap-5 justify-center">
+                    <div class="text-left w-2/5 leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p class="text-sm">FPTJobMatch was created with the main purpose of helping employers and jobseekers connect. With the main colors being orange and blue, it represents more about the FPT brand.</p>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=R1_E3DhhaIU" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</a>
+                    </div>
+                    <div class="h-[150px] w-0.5 bg-white opacity-10"></div>
+                    <div class="text-left w-fit text-sm leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">100%</span></p>
+                        <p>Technology used:</p>
+                        <ul class="list-disc ml-7">
+                            <li>Tailwind CSS</li>
+                            <li>.NET Core</li>
+                            <li>PostgreSql</li>
+                            <li>SignalR</li>
+                        </ul>
+                        <p>End date: <span class="text-MyYellow font-semibold ml-2">1 month ago</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-bottom py-24 bg-MyGray" id="project">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">moho Shop</p>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="hidden lg:block text-left w-1/4 leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                    <p class="text-sm">moho was created with the main purpose of selling facial care products. With the main color being pink, it's more approachable and feels more feminine.</p>
+                    <button onclick="myFunction()" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</button>
+                </div>
+                <div class="w-full lg:w-2/4 my-5">
+                    <img src="/images/system/moho.png" alt="moho Shop" class="rounded-md opacity-80 h-[350px] object-cover mx-auto">
+                </div>
+                <div class="hidden lg:block text-left w-1/4 text-sm leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                    <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">90%</span></p>
+                    <p>Technology used:</p>
+                    <ul class="list-disc ml-7">
+                        <li>Tailwind CSS</li>
+                        <li>Express</li>
+                        <li>PostgreSql</li>
+                    </ul>
+                    <p>End date: <span class="text-MyYellow font-semibold ml-2">10/10/2023</span></p>
+                </div>
+                <div class="flex lg:hidden gap-5 justify-center">
+                    <div class="text-left w-2/5 leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p class="text-sm">moho was created with the main purpose of selling facial care products. With the main color being pink, it's more approachable and feels more feminine.</p>
+                        <button onclick="myFunction()" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</button>
+                    </div>
+                    <div class="h-[150px] w-0.5 bg-white opacity-10"></div>
+                    <div class="text-left w-fit text-sm leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">90%</span></p>
+                        <p>Technology used:</p>
+                        <ul class="list-disc ml-7">
+                            <li>Tailwind CSS</li>
+                            <li>Express</li>
+                            <li>PostgreSql</li>
+                        </ul>
+                        <p>End date: <span class="text-MyYellow font-semibold ml-2">10/10/2023</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="border-bottom py-24">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">MB Assignment</p>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="hidden lg:block text-left w-1/4 leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                    <p class="text-sm">MB Assignment was created with the main purpose of selling assignments in the information technology major in Greenwich. With dark tones, it is easier to approach students and feels more formal.</p>
+                    <button onclick="myFunction()" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</button>
+                </div>
+                <div class="w-full lg:w-2/4 my-5">
+                    <img src="/images/system/MBassignment.png" alt="moho Shop" class="rounded-md opacity-80 h-[350px] object-cover mx-auto">
+                </div>
+                <div class="hidden lg:block text-left w-1/4 text-sm leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                    <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">95%</span></p>
+                    <p>Technology used:</p>
+                    <ul class="list-disc ml-7">
+                        <li>Bootstrap</li>
+                        <li>.Net MVC</li>
+                        <li>Sql Server</li>
+                    </ul>
+                    <p>End date: <span class="text-MyYellow font-semibold ml-2">8/3/2023</span></p>
+                </div>
+                <div class="flex lg:hidden gap-5 justify-center">
+                    <div class="text-left w-2/5 leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p class="text-sm">MB Assignment was created with the main purpose of selling assignments in the information technology industry in Greenwich. With dark tones, it is easier to approach students and feels more formal.</p>
+                        <button onclick="myFunction()" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</button>
+                    </div>
+                    <div class="h-[150px] w-0.5 bg-white opacity-10"></div>
+                    <div class="text-left w-fit text-sm leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                        <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">95%</span></p>
+                        <p>Technology used:</p>
+                        <ul class="list-disc ml-7">
+                            <li>Bootstrap</li>
+                            <li>.Net MVC</li>
+                            <li>Sql Server</li>
+                        </ul>
+                        <p>End date: <span class="text-MyYellow font-semibold ml-2">8/3/2023</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-bottom py-24 bg-MyGray">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">MB English Center</p>
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="hidden lg:block text-left w-1/4 leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                    <p class="text-sm">MB English Center was created for the purpose of selling courses as well as registering for online English classes. This project is done once in Php and once in .Net. MVC.</p>
+                    <a href="https://www.youtube.com/watch?v=FbASLDAEDXM" target="_blank" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</a>
+                </div>
+                <div class="w-full lg:w-2/4 my-5">
+                    <img src="/images/system/englishcenter.png" alt="moho Shop" class="rounded-md opacity-80 h-[350px] object-cover mx-auto">
+                </div>
+                <div class="hidden lg:block text-left w-1/4 text-sm leading-6">
+                    <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                    <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">80%</span></p>
+                    <p>Technology used:</p>
+                    <ul class="list-disc ml-7">
+                        <li>Bootstrap</li>
+                        <li>.Net MVC / Php</li>
+                        <li>Sql Server</li>
+                    </ul>
+                    <p>End date: <span class="text-MyYellow font-semibold ml-2">6/11/2022</span></p>
+                </div>
+                <div class="flex lg:hidden gap-5 justify-center">
+                    <div class="text-left w-2/5 leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Description</p>
+                        <p class="text-sm">MB English Center was created for the purpose of selling courses as well as registering for online English classes. This project is done once in Php and once in .Net. MVC.</p>
+                        <a href="https://www.youtube.com/watch?v=FbASLDAEDXM" target="_blank" class="px-5 py-2 rounded-full btn-hover mt-4">Watch video</a>
+                    </div>
+                    <div class="h-[150px] w-0.5 bg-white opacity-10"></div>
+                    <div class="text-left w-fit text-sm leading-6">
+                        <p class="text-lg text-MyYellow font-semibold mb-2">Technical description</p>
+                        <p>Completion Level: <span class="text-MyYellow font-semibold ml-2">80%</span></p>
+                        <p>Technology used:</p>
+                        <ul class="list-disc ml-7">
+                            <li>Bootstrap</li>
+                            <li>.Net MVC / Php</li>
+                            <li>Sql Server</li>
+                        </ul>
+                        <p>End date: <span class="text-MyYellow font-semibold ml-2">6/11/2022</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-bottom py-24">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">FIGMA DESIGN</p>
+            <p class="w-3/4 mx-auto">To be honest, I'm not very familiar with interface design, so my proficiency with Figma is at a basic level, which limits the impact on my designs. Here are some projects I have worked on using Figma</p>
+            <img src="/images/system/figma.png" alt="" class="w-[700px] h-[400px] object-cover border-8 border-MyYellow rounded-lg mx-auto my-7" >
+            <a href="https://www.figma.com/files/project/102350760/Minh's-project?fuid=1243760342730820091" target="_blank" class="px-5 py-2 rounded-full btn-hover" >View</a>
+        </div>
+    </div>
+
+    <div class="border-bottom py-20 bg-MyGray">
+        <div class="w-11/12 xl:w-5/6 mx-auto text-center">
+            <p class="title">MY EXPRESSION</p>
+            <p class="w-3/4 mx-auto">To be honest, I haven't had the opportunity to work on real projects with a team; therefore, I may lack experience and deep technical knowledge. However, I'm confident in my eagerness to learn and my readiness to absorb new knowledge. So far, I haven't considered myself particularly talented or smart, but when I encounter problems, I always try my best to solve them. Thank you for being here; I appreciate it!</p>
+        </div>
+    </div>
+
+
+
+    <div class="border-bottom py-24" id="contact">
+        <div class="w-11/12 xl:w-5/6 mx-auto flex flex-col lg:flex-row gap-12 items-center">
+            <div class="text-center lg:text-left">
+                <p class="title">CONTACT</p>
+                <p class="">If you have any questions, please feel free to send me a message, I will definitely reply as soon as possible. And don't forget that Minh's contact information such as phone number and gmail address is in the introduction area.</p>
+                <label for="name" class="px-7 py-2 rounded-full btn-hover mt-5">Enter my details</label>  
+            </div>
+            <div class="border border-MyPaleGray rounded-sm bg-MyBlack p-10 w-full md:w-[450px] sm:min-w-[520px]">
+                <p class="text-MyYellow text-center font-semibold text-xl mb-5">Your Details</p>
+                <form action="" class="flex flex-col gap-5">
+                    <input type="text" id="name" placeholder="Gmail" class="outline-none h-12 p-4 rounded-sm text-MyBlack">
+                    <input type="text" placeholder="Message" class="outline-none h-12 p-4 rounded-sm text-MyBlack">
+                    <input type="submit" value="Submit" class="border border-MyYellow rounded-full py-2 hover:bg-MyYellow hover:text-MyBlack hover:cursor-pointer">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="py-6 text-center">
+        <p class="text-sm">My old portfolio: <a href="https://minhportfolio.onrender.com/" target="_blank" class="text-MyYellow">Click here</a></p>
+        <p class="text-sm mt-1">This website is inspired by Mr. Hieu Nguyen's site</p>
+    </div>
+
+</body>
+<script src="/javascripts/main.js"></script>
+</html>
